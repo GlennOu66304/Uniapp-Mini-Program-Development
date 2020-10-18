@@ -16,6 +16,16 @@ Resource Link:
 [uni-course-router.zip](https://github.com/front-end-class/uniapp-music-code/blob/master/uni-course-router.zip)  
 [uniapp-music-code](https://github.com/GlennOu66304/Uniapp-Mini-Program-Development)  
 [gitzip](https://kinolien.github.io/gitzip/)  
+
+## Free project download:  
+1.Git downloa the project:  
+```
+git clone https://gitee.com/dcloud/xinguan2020-xuesheng.git(http address) 
+```
+2.Then follow the above 'Run the project:' solution to run the project:  
+3.Project Resource:
+[官方免费项目：新冠病毒，IT系统总汇](https://dcloud.io/ncp.html)
+
 ## 工具介绍、新建项目及插件配置
 1.You need to install the plugin from the internal HBuilderX  or from the plugin market website:[插件市场](https://ext.dcloud.net.cn/search?q=beautify&cat1=1&cat2=11&orderBy=WeekDownload#)  
 2. install the node module: you need to go to the plugin directory, then npm install the package name:  
@@ -43,3 +53,4 @@ cd /Applications/HBuilderX.app/Contents/HBuilderX/plugins/
 [Uniapp 从入门到进阶](https://juejin.im/book/6844733817438076936)  
 [Dcloun社区](https://ask.dcloud.net.cn/explore/)  
 [uniapp-music-code source code](https://github.com/front-end-class/uniapp-music-code)  
+[官方免费项目：新冠病毒，IT系统总汇]（https://dcloud.io/ncp.html）
