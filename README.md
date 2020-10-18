@@ -23,7 +23,7 @@ Resource Link:
 git clone https://gitee.com/dcloud/xinguan2020-xuesheng.git(http address) 
 ```
 2.Then follow the above 'Run the project:' solution to run the project:  
-3.Project Resource:
+3.Project Resource:  
 [官方免费项目：新冠病毒，IT系统总汇](https://dcloud.io/ncp.html)
 
 ## 工具介绍、新建项目及插件配置
