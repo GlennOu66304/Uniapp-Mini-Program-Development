@@ -14,6 +14,18 @@ Go to the manifest.json to put the wechat app id, then restart the HBuilder and 
 [如何获取小程序的appid？](https://zhuanlan.zhihu.com/p/61511399)  
 [小程序官方网址](https://mp.weixin.qq.com/wxamp/devprofile/get_profile?token=1113910923&lang=zh_CN)
 
+## 3.Bug fixing 小程序不在以下 request 合法域名列表中问题:  
+Simply go to the details and local setting, then select the "Dose not verify valid domain....", then run the project again.   
+[微信小程序请求数据报错： 如若已在管理后台更新域名配置，请刷新项目配置后重新编译项目，操作路径：“详情-域名信息”](https://my.oschina.net/u/2423404/blog/3116714)  
+[小程序不在以下 request 合法域名列表中问题](https://izhizuo.cn/post/133.html)  
+[使用云服务开发小程序，在小程序测试界面发生错误？](https://cloud.tencent.com/developer/ask/24053)  
+[网络](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)  
+
+## 4. HbuilderX:Bug:"文件查找失败：’./pages/index/index.nvue’".  
+Just head to the pages.json, then delete the path "./pages/index/index.nvue", then rebuild the pages again(directory), then rerun the project again.  
+[uniapp 组件导入文件查找失败](https://cloud.tencent.com/developer/article/1685334)  
+[新建页面](https://www.lagou.com/lgeduarticle/41127.html)  
+
 ## Run the project:     
 
 ### 1.download the projet:  
@@ -21,9 +33,11 @@ Go to the manifest.json to put the wechat app id, then restart the HBuilder and 
 2.then it will download and have the project file;   
 
 ### 2.How to run the local project into the wechat dev tool:   
-1.You need to import the project into the HbuilderX;  
-2.Run this app into the wechat tab; (HbuilderX)  
-3.compile the projec to see more content;(Wechat developer tool)  
+1.You need to import the project into the HbuilderX;   
+2. First, you need to go to the mainifest.json to add the wechat appid intot he file, then choose the all options except the location option.  
+[小程序调试](https://juejin.im/book/6844733817438076936/section/6844733817547128839)   
+3.Run this app into the wechat tab; (HbuilderX)  
+4.compile the projec to see more content;(Wechat developer tool)  
 [小程序调试](https://juejin.im/book/6844733817438076936/section/6844733817547128839)  
 
 Resource Link:  
@@ -61,11 +75,14 @@ cd /Applications/HBuilderX.app/Contents/HBuilderX/plugins/
 ## 小程序，app调试环境配置  
 [小程序调试](https://juejin.im/book/6844733817438076936/section/6844733817547128839)   
 [如何获取小程序的appid](https://zhuanlan.zhihu.com/p/61511399)   
-[小程序链接](https://mp.weixin.qq.com/wxamp/devprofile/get_profile?token=1113910923&lang=zh_CN) 
+[小程序链接](https://mp.weixin.qq.com/wxamp/devprofile/get_profile?token=1113910923&lang=zh_CN)   
 [如何安装配置手机模拟器](https://ask.dcloud.net.cn/article/151)   
 
 ## Lerninin resource:  
 [Uniapp 从入门到进阶](https://juejin.im/book/6844733817438076936)  
+[uni app 零基础小白到项目实战（完）](https://www.bilibili.com/video/BV1nb411g79e?p=26)  
+[2020-web前端-都2020年了你还学习uni-app](https://www.bilibili.com/video/BV1Wa4y1i7r8?p=2)  
 [Dcloun社区](https://ask.dcloud.net.cn/explore/)  
 [uniapp-music-code source code](https://github.com/front-end-class/uniapp-music-code)  
 [官方免费项目：新冠病毒，IT系统总汇]（https://dcloud.io/ncp.html）
+[Jshop小程序uniapp前台简约模板](https://gitee.com/hnjihai/uniapp)  
