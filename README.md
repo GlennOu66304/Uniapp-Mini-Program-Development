@@ -11,6 +11,8 @@ Go to the manifest.json to put the wechat app id, then restart the HBuilder and 
 [HX uniapp新建 项目,微信小程序报错，Cannot read property 'forceUpdate' of undefined](https://ask.dcloud.net.cn/question/100352)  
 [微信开发者工具报错appServiceSDKScriptError?](https://developers.weixin.qq.com/community/develop/doc/000626a7820dc0e8b18a172605bc00)  
 [微信小程序报错：Cannot read property ‘forceUpdate‘ of undefined](https://blog.csdn.net/xiaoma19941027/article/details/107785067)  
+[如何获取小程序的appid？](https://zhuanlan.zhihu.com/p/61511399)  
+[小程序官方网址](https://mp.weixin.qq.com/wxamp/devprofile/get_profile?token=1113910923&lang=zh_CN)
 
 ## Run the project:     
 
