@@ -1,5 +1,18 @@
 # Uniapp develop: 
-## Run the project:    
+## 1.Bug 'main package source size 2129KB exceed max limit 2MB'fixing:  
+1.Put the image into the CDN;   
+2. According to the "Subpackage Loading" in the documeatation to fix it:  
+[小程序代码上传时报错](https://developers.weixin.qq.com/community/develop/doc/000cce0349468030c42737ebd5b400)  
+[源码包超出最大限制](https://developers.weixin.qq.com/community/develop/doc/000426d97d0b40e6ec57c34cf51800)   
+[使用分包](https://developers.weixin.qq.com/miniprogram/dev/framework/subpackages/basic.html)  
+
+## 2.Bug 微信开发者工具报错appServiceSDKScriptError? fixing:  
+Go to the manifest.json to put the wechat app id, then restart the HBuilder and wechat dev tool, then rerun the project.  
+[HX uniapp新建 项目,微信小程序报错，Cannot read property 'forceUpdate' of undefined](https://ask.dcloud.net.cn/question/100352)  
+[微信开发者工具报错appServiceSDKScriptError?](https://developers.weixin.qq.com/community/develop/doc/000626a7820dc0e8b18a172605bc00)  
+[微信小程序报错：Cannot read property ‘forceUpdate‘ of undefined](https://blog.csdn.net/xiaoma19941027/article/details/107785067)  
+
+## Run the project:     
 
 ### 1.download the projet:  
 1.just keep the VPN mode and data, then right click the destination file;  
