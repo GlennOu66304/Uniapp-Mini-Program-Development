@@ -26,6 +26,79 @@ Just head to the pages.json, then delete the path "./pages/index/index.nvue", th
 [uniapp 组件导入文件查找失败](https://cloud.tencent.com/developer/article/1685334)  
 [新建页面](https://www.lagou.com/lgeduarticle/41127.html)  
 
+## 5. How to see two files in the two panel in the HBuilderX  
+open two files at the same time in the HBuiderX, you could sipmply click a file and open it in the editor, then right click the file choose to open it in the left and right option. it will generate a blank file. then you could drag the deestination file above and right drag to the right area. then click the blank file. 
+##6.if you could not see the info page in while you click the test, then you need to check the src in the index.vue page: make sure that it is code below:  
+```
+<navigator url="../info/info">
+```
+Resources link:  
+[uni app 零基础小白到项目实战（完）](https://www.bilibili.com/video/BV1nb411g79e?p=26)    
+
+6.put the image Link into the miniprogram, make sure the image source is from the Baidu;   
+7.编辑器自动换行设置，在Preferencesetting,编辑器设置Here to change.  
+[HbuilderX如何设置自动换行](https://jingyan.baidu.com/article/3a2f7c2e5b859766afd61190.html)
+## Bug Fixing:"vue 报错data functions should return an object:"  
+Simply add the code belolw into the index.vue:  
+```
+data() {
+			return{}
+		},
+```
+[vue 报错data functions should return an object:](https://blog.csdn.net/zhuoganliwanjin/article/details/88331611)  
+
+## Mac搭建easy-mock本地环境:
+1.install nodev8.x,: 
+[How to install older version of node.js on Windows?](https://stackoverflow.com/questions/33849714/how-to-install-older-version-of-node-js-on-windows/49780887)  
+
+2.node version check:  
+```
+node-v
+``` 
+[How do I check my version of Node.js?](https://support.invisionapp.com/hc/en-us/articles/360033641372-How-do-I-check-my-version-of-Node-js-#:~:text=To%20check%20your%20version%20of,line%20will%20display%20the%20Node.)  
+2.Install MongoDB Community Edition on macOS:  
+```
+brew install mongodb-community@4.4
+```
+[Install MongoDB Community Edition on macOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)  
+3.下载 https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-4.0.4.tgz 并解压  
+4.At the same time, you need to follow the guidence to process next.  
+5. create a bash file and open it in the Tex file:  
+You just need to open a new shell windows, and type the code below in the shell:
+```
+open -e .bash_profile
+```
+[How to set .bash_profile, if it does not exist yet. I want to launch sublime from a command line in Mac](https://stackoverflow.com/questions/39037537/how-to-set-bash-profile-if-it-does-not-exist-yet-i-want-to-launch-sublime-fro)  
+6.put the content into the Text file and save it  
+```
+export PATH=/usr/local/mongodb/bin:${PATH}
+```
+you need to konw that bash profile is under zt, so you need to open a new shell to do that  
+[How to create .bash_profile in macOS](https://medium.com/@yash3x/how-to-create-bash-profile-in-macos-sierra-a0e2a42fa4db)  
+7. solve the Bug:Read-only file system when attempting mkdir /data/db on Mac  
+```
+mongod --dbpath=/Users/user/data/db
+```
+[Read-only file system when attempting mkdir /data/db on Mac](https://stackoverflow.com/questions/58034955/read-only-file-system-when-attempting-mkdir-data-db-on-mac)  
+8.Mongo running bug fixing:  
+A: try this one first:
+```
+sudo systemctl enable mongod
+```
+[Mongodb connection error whenever rebooting server](https://stackoverflow.com/questions/63294890/mongodb-connection-error-whenever-rebooting-server)  
+B: the n try this one:  
+```
+sudo mongod --config /usr/local/etc/mongod.conf
+brew services start mongodb-community
+```
+10.install redis:http://download.redis.io/releases/redis-5.0.2.tar.gz   
+11.git install the easy mock:
+
+Main reference:  
+[Mac搭建easy-mock本地环境](https://www.jianshu.com/p/8c40dbda6e87)  
+[easy-mock](https://github.com/easy-mock/easy-mock/blob/dev/README.zh-CN.md)  
+Official doc[快速开始](https://www.easy-mock.com/docs)  
+[miniprogram and easy mock:](https://www.cnblogs.com/zyrblog/p/9029746.html)   
 ## Run the project:     
 
 ### 1.download the projet:  
@@ -72,6 +145,11 @@ cd /Applications/HBuilderX.app/Contents/HBuilderX/plugins/
 [JS Beautifier](https://www.npmjs.com/package/js-beautify)  
 [uni-app 使用npm的问题](https://ask.dcloud.net.cn/question/68943)  
 
+
+npm version download:  
+[How to install older version of node.js on Windows?](https://stackoverflow.com/questions/33849714/how-to-install-older-version-of-node-js-on-windows/49780887)
+[easy-mock/README.zh-CN.md](https://github.com/easy-mock/easy-mock/blob/dev/README.zh-CN.md)  
+
 ## 小程序，app调试环境配置  
 [小程序调试](https://juejin.im/book/6844733817438076936/section/6844733817547128839)   
 [如何获取小程序的appid](https://zhuanlan.zhihu.com/p/61511399)   
@@ -86,3 +164,7 @@ cd /Applications/HBuilderX.app/Contents/HBuilderX/plugins/
 [uniapp-music-code source code](https://github.com/front-end-class/uniapp-music-code)  
 [官方免费项目：新冠病毒，IT系统总汇]（https://dcloud.io/ncp.html）
 [Jshop小程序uniapp前台简约模板](https://gitee.com/hnjihai/uniapp)  
+[如何学习 uni-app？](https://yq.aliyun.com/articles/703512)  
+[uni-app技术视频](https://blog.csdn.net/qq_26562641/article/details/103164668)  
+[uni-app高分开源电影项目源码案例分析，支持一套代码发布小程序、APP平台多个平台(前端入门必看)](https://juejin.im/post/6844904160404455438)  
+[uni-app/docs/resource.md](https://github.com/dcloudio/uni-app/blob/master/docs/resource.md)  
