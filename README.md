@@ -81,24 +81,51 @@ mongod --dbpath=/Users/user/data/db
 ```
 [Read-only file system when attempting mkdir /data/db on Mac](https://stackoverflow.com/questions/58034955/read-only-file-system-when-attempting-mkdir-data-db-on-mac)  
 8.Mongo running bug fixing:  
-A: try this one first:
-```
-sudo systemctl enable mongod
-```
-[Mongodb connection error whenever rebooting server](https://stackoverflow.com/questions/63294890/mongodb-connection-error-whenever-rebooting-server)  
-B: the n try this one:  
+A: the n try this one:  
 ```
 sudo mongod --config /usr/local/etc/mongod.conf
 brew services start mongodb-community
 ```
+B:
+```
+sudo systemctl enable mongod
+```
+[Mongodb connection error whenever rebooting server](https://stackoverflow.com/questions/63294890/mongodb-connection-error-whenever-rebooting-server)  
+
+
 10.install redis:http://download.redis.io/releases/redis-5.0.2.tar.gz   
-11.git install the easy mock:
+11.git install the easy mock:  
+## 12. Qucik way to run the Easy Mock shortcut:  
+1.Redis: 
+```
+$ redis-server
+```
+Bug fixing:  redis-server in ubuntu14.04: Bind address already in use  
+```
+$ ps aux | grep redis
+$ kill -9 8821
+$ redis-server
+```
+[redis-server in ubuntu14.04: Bind address already in use](https://stackoverflow.com/questions/32947076/redis-server-in-ubuntu14-04-bind-address-already-in-use)  
+2. Mongodb:
+```
+sudo mongod --config /usr/local/etc/mongod.conf 
+brew services start mongodb-community 
+mongo
+```
+3.Easy mock: 
+```
+cd /Users/zt/easy-mock 
+npm run dev
+```
 
 Main reference:  
 [Mac搭建easy-mock本地环境](https://www.jianshu.com/p/8c40dbda6e87)  
 [easy-mock](https://github.com/easy-mock/easy-mock/blob/dev/README.zh-CN.md)  
 Official doc[快速开始](https://www.easy-mock.com/docs)  
 [miniprogram and easy mock:](https://www.cnblogs.com/zyrblog/p/9029746.html)   
+
+
 ## Run the project:     
 
 ### 1.download the projet:  
@@ -118,6 +145,20 @@ Resource Link:
 [uni-course-router.zip](https://github.com/front-end-class/uniapp-music-code/blob/master/uni-course-router.zip)  
 [uniapp-music-code](https://github.com/GlennOu66304/Uniapp-Mini-Program-Development)  
 [gitzip](https://kinolien.github.io/gitzip/)  
+
+## uni-app 跨平台应用开发教程 Course mmaterial:  
+1、官方网站及手册地址
+http://uniapp.dcloud.io/  
+2、本教程内文档地址
+http://www.hcoder.net/tutorials/info/id/1335  
+修改后面的数字 如 1336 1337 一直到 1361
+http://www.hcoder.net/tutorials/info/id/1361  
+3、推荐课程地址
+www.hcoder.net  
+4.Tencent class unit(source code):  
+https://ke.qq.com/course/323825   
+
+You could open the text file content in the chrom to vie the content.  
 
 ## Free project download:  
 1.Git downloa the project:  
