@@ -124,8 +124,40 @@ Main reference:
 [easy-mock](https://github.com/easy-mock/easy-mock/blob/dev/README.zh-CN.md)  
 Official doc[快速开始](https://www.easy-mock.com/docs)  
 [miniprogram and easy mock:](https://www.cnblogs.com/zyrblog/p/9029746.html)   
+## NVM install to manage the node version:
+1.Bug fixing:  Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM:
+1.switch your VPN mode into the steal mode;
+2.Replace the host file of the system["Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM](https://programmersought.com/article/45155094283/)  
+[0curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused #2144](https://github.com/nvm-sh/nvm/issues/2144)  
+3. Add the configure to the bash profile:
+open a new termionl:
+```
+open -e .bash_profile
+```
+put the text into it:  
+```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+activate it:  
+```
+source ~/.bash_profile
+```
+Verify Installation  
+```
+command -v nvm
+```
 
+Main Refrence: 
+[使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)  
+[nvm：安裝、切換不同 Node.js 版本的管理器](https://titangene.github.io/article/nvm.html)  
+[Node Version Manager](https://github.com/nvm-sh/nvm)   
+[基于nvm的Node、NPM的版本管理（NPM permission error的解决](https://segmentfault.com/a/1190000016899030)  
+[eslint installation warnings. Need Clarification](https://stackoverflow.com/questions/48478989/eslint-installation-warnings-need-clarification) 
 
+## 工具|FinalShell，必备终端利器
+[工具|FinalShell，必备终端利器](https://www.jianshu.com/p/94e6bb9e52d1)  
+[FinalShell自定义加速教程-加速SSH连接,支持XShell,Putty,SecureCRT,Iterm,所有SSH客户端](http://www.hostbuf.com/t/1076.html)  
 ## Run the project:     
 
 ### 1.download the projet:  
