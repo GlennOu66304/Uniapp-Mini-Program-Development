@@ -124,17 +124,17 @@ Main reference:
 [easy-mock](https://github.com/easy-mock/easy-mock/blob/dev/README.zh-CN.md)  
 Official doc[快速开始](https://www.easy-mock.com/docs)  
 [miniprogram and easy mock:](https://www.cnblogs.com/zyrblog/p/9029746.html)   
-## NVM install to manage the node version:
-1.Bug fixing:  Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM:
-1.switch your VPN mode into the steal mode;
-2.Replace the host file of the system["Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM](https://programmersought.com/article/45155094283/)  
+## NVM install to manage the node version:  
+1.Bug fixing:  Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM:  
+1.switch your VPN mode into the steal mode;  
+2.Replace the host file of the system["Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM](https://programmersought.com/article/45155094283/)    
 [0curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused #2144](https://github.com/nvm-sh/nvm/issues/2144)  
-3. Add the configure to the bash profile:
-open a new termionl:
+3. Add the configure to the bash profile:  
+open a new termionl:  
 ```
 open -e .bash_profile
 ```
-put the text into it:  
+put the text into it:    
 ```
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
@@ -145,7 +145,7 @@ source ~/.bash_profile
 ```
 Verify Installation  
 ```
-command -v nvm
+command -v nvm  
 ```
 
 Main Refrence: 
