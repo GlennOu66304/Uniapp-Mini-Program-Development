@@ -157,10 +157,10 @@ Main Refrence:
 
 ## 11.Bugs: fixing when you run the project in the Local shell: 
 1.eslint-plugin Bug: 
-npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-import@>=2.18.0 but none is installed. You must install peer dependencies yourself.
-npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-node@>=9.1.0 but none is installed. You must install peer dependencies yourself.
-npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-promise@>=4.2.1 but none is installed. You must install peer dependencies yourself.
-npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-standard@>=4.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-import@>=2.18.0 but none is installed. You must install peer dependencies yourself.  
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-node@>=9.1.0 but none is installed. You must install peer dependencies yourself.  
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-promise@>=4.2.1 but none is installed. You must install peer dependencies yourself.  
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-standard@>=4.0.0 but none is installed. You must install peer dependencies yourself.  
 Simply install those pacakge
 ```
 npm i eslint-plugin-import
