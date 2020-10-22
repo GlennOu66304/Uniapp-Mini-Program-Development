@@ -28,7 +28,7 @@ Just head to the pages.json, then delete the path "./pages/index/index.nvue", th
 
 ## 5. How to see two files in the two panel in the HBuilderX  
 open two files at the same time in the HBuiderX, you could sipmply click a file and open it in the editor, then right click the file choose to open it in the left and right option. it will generate a blank file. then you could drag the deestination file above and right drag to the right area. then click the blank file. 
-##6.if you could not see the info page in while you click the test, then you need to check the src in the index.vue page: make sure that it is code below:  
+## 6.if you could not see the info page in while you click the test, then you need to check the src in the index.vue page: make sure that it is code below:  
 ```
 <navigator url="../info/info">
 ```
@@ -38,7 +38,7 @@ Resources link:
 6.put the image Link into the miniprogram, make sure the image source is from the Baidu;   
 7.编辑器自动换行设置，在Preferencesetting,编辑器设置Here to change.  
 [HbuilderX如何设置自动换行](https://jingyan.baidu.com/article/3a2f7c2e5b859766afd61190.html)
-## Bug Fixing:"vue 报错data functions should return an object:"  
+## 7.Bug Fixing:"vue 报错data functions should return an object:"  
 Simply add the code belolw into the index.vue:  
 ```
 data() {
@@ -47,7 +47,7 @@ data() {
 ```
 [vue 报错data functions should return an object:](https://blog.csdn.net/zhuoganliwanjin/article/details/88331611)  
 
-## Mac搭建easy-mock本地环境:
+## 8.Mac搭建easy-mock本地环境:
 1.install nodev8.x,: 
 [How to install older version of node.js on Windows?](https://stackoverflow.com/questions/33849714/how-to-install-older-version-of-node-js-on-windows/49780887)  
 
@@ -95,7 +95,7 @@ sudo systemctl enable mongod
 
 10.install redis:http://download.redis.io/releases/redis-5.0.2.tar.gz   
 11.git install the easy mock:  
-## 12. Qucik way to run the Easy Mock shortcut:  
+## 9.Qucik way to run the Easy Mock shortcut:  
 1.Redis: 
 ```
 $ redis-server
@@ -124,7 +124,7 @@ Main reference:
 [easy-mock](https://github.com/easy-mock/easy-mock/blob/dev/README.zh-CN.md)  
 Official doc[快速开始](https://www.easy-mock.com/docs)  
 [miniprogram and easy mock:](https://www.cnblogs.com/zyrblog/p/9029746.html)   
-## NVM install to manage the node version:  
+## 10.NVM install to manage the node version:  
 1.Bug fixing:  Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM:  
 1.switch your VPN mode into the steal mode;  
 2.Replace the host file of the system["Curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused" on mac-install NVM](https://programmersought.com/article/45155094283/)    
@@ -155,6 +155,55 @@ Main Refrence:
 [基于nvm的Node、NPM的版本管理（NPM permission error的解决](https://segmentfault.com/a/1190000016899030)  
 [eslint installation warnings. Need Clarification](https://stackoverflow.com/questions/48478989/eslint-installation-warnings-need-clarification) 
 
+## 11.Bugs: fixing when you run the project in the Local shell: 
+1.eslint-plugin Bug: 
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-import@>=2.18.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-node@>=9.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-promise@>=4.2.1 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-standard@13.0.1 requires a peer of eslint-plugin-standard@>=4.0.0 but none is installed. You must install peer dependencies yourself.
+Simply install those pacakge
+```
+npm i eslint-plugin-import
+npm i eslint-plugin-node
+npm i eslint-plugin-promise 
+npm i eslint-plugin-standard
+```
+[eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)  
+[eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node)  
+[eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)  
+[eslint-plugin-standard](https://www.npmjs.com/package/eslint-plugin-standard)  
+2.activate the bash profile:  
+```
+source ~/.bash_profile
+command -v nvm  
+```
+3.switch to the latet node version:  
+```
+nvm use node
+```
+4.npm install package
+5.node app.js run the project  
+
+Reference:  
+[基于NeteaseCloudMusicApi接口二次开发和部署](https://juejin.im/book/6844733817438076936/section/6844733817563906061)  
+[使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)  
+
+## 12.Bugs: fixing when you run the project in the Tencent clound shell:   
+1.According to the guide to build the node enviroment and NVM  
+[腾讯云服务器搭建node环境](https://uzshare.com/view/818786)  
+
+2.download the npm v14.14.0 version:  
+```
+nvm install v14.14.0
+```
+3.Use the latest node version:  
+```
+nvm use node  
+```
+References:
+[腾讯云服务器搭建node环境](https://uzshare.com/view/818786)  
+[基于NeteaseCloudMusicApi接口二次开发和部署](https://juejin.im/book/6844733817438076936/section/6844733817563906061) 
+[使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)    
 ## 工具|FinalShell，必备终端利器
 [工具|FinalShell，必备终端利器](https://www.jianshu.com/p/94e6bb9e52d1)  
 [FinalShell自定义加速教程-加速SSH连接,支持XShell,Putty,SecureCRT,Iterm,所有SSH客户端](http://www.hostbuf.com/t/1076.html)  
