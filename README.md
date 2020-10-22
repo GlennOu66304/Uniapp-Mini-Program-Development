@@ -6,7 +6,7 @@
 [源码包超出最大限制](https://developers.weixin.qq.com/community/develop/doc/000426d97d0b40e6ec57c34cf51800)   
 [使用分包](https://developers.weixin.qq.com/miniprogram/dev/framework/subpackages/basic.html)  
 
-## 2.Bug 微信开发者工具报错appServiceSDKScriptError? fixing:  
+## 2.Bug 微信开发者工具报错appServiceSDKScriptError? fixing:    
 Go to the manifest.json to put the wechat app id, then restart the HBuilder and wechat dev tool, then rerun the project.  
 [HX uniapp新建 项目,微信小程序报错，Cannot read property 'forceUpdate' of undefined](https://ask.dcloud.net.cn/question/100352)  
 [微信开发者工具报错appServiceSDKScriptError?](https://developers.weixin.qq.com/community/develop/doc/000626a7820dc0e8b18a172605bc00)  
@@ -16,7 +16,7 @@ Go to the manifest.json to put the wechat app id, then restart the HBuilder and 
 
 ## 3.Bug fixing 小程序不在以下 request 合法域名列表中问题:  
 Simply go to the details and local setting, then select the "Dose not verify valid domain....", then run the project again.   
-[微信小程序请求数据报错： 如若已在管理后台更新域名配置，请刷新项目配置后重新编译项目，操作路径：“详情-域名信息”](https://my.oschina.net/u/2423404/blog/3116714)  
+[微信小程序请求数据报错： 如若已在管理后台更新域名配置，请刷新项目配置后重新编译项目，操作路径：“详情-域名信息”](https://my.oschina.net/u/2423404/blog/3116714)    
 [小程序不在以下 request 合法域名列表中问题](https://izhizuo.cn/post/133.html)  
 [使用云服务开发小程序，在小程序测试界面发生错误？](https://cloud.tencent.com/developer/ask/24053)  
 [网络](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)  
