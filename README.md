@@ -200,7 +200,7 @@ nvm install v14.14.0
 ```
 nvm use node  
 ```
-References:
+References:  
 [腾讯云服务器搭建node环境](https://uzshare.com/view/818786)  
 [基于NeteaseCloudMusicApi接口二次开发和部署](https://juejin.im/book/6844733817438076936/section/6844733817563906061) 
 [使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)    
