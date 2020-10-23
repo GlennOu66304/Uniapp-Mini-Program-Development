@@ -211,12 +211,30 @@ References:
 [基于NeteaseCloudMusicApi接口二次开发和部署](https://juejin.im/book/6844733817438076936/section/6844733817563906061) 
 [使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)   
 
-## 工具|FinalShell，必备终端利器: 
+## 13.工具|FinalShell，必备终端利器: 
 1. According to the guide to deploy your finalshell;  
 Main reference: [SSH连接工具FinalShell的安装与使用](https://my.oschina.net/cztblog/blog/4394507)   
 [FinalShell国产ssh连接工具简单的使用教程](https://blog.csdn.net/fengyupotest/article/details/93720171)  
 [工具|FinalShell，必备终端利器](https://www.jianshu.com/p/94e6bb9e52d1)  
 [FinalShell自定义加速教程-加速SSH连接,支持XShell,Putty,SecureCRT,Iterm,所有SSH客户端](http://www.hostbuf.com/t/1076.html)  
+
+## 14.配置Https  
+1.[配置Https](https://juejin.im/book/6844733817438076936/section/6844733817563906061)
+2.[上传ssl证书到服务器 ，配置nginx的https实现安全访问](https://blog.csdn.net/weixin_42742717/article/details/107489348)  
+2.[申请免费的腾讯云SSL证书实现https访问教程](https://cloud.tencent.com/developer/article/1409413)  
+
+## 通过 Docker 部署
+1.[安装与配置 Docker](https://cloud.tencent.com/developer/labs/lab/10054)  
+2.[Dockerfile 文件](https://juejin.im/book/6844733817438076936/section/6844733817563906061)  
+3.[Writing Dockerfile and Exposing Ports:](https://linuxhint.com/dockerfile_expose_ports/)  
+4.[Cannot connect to the Docker daemon at unix:/var/run/docker.sock. Is the docker daemon running?](https://stackoverflow.com/questions/44678725/cannot-connect-to-the-docker-daemon-at-unix-var-run-docker-sock-is-the-docker) 
+```
+systemctl start docker
+```
+[Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running? #535](https://github.com/docker/for-linux/issues/535)  
+Main Reference:  [通过 Docker 部署](https://juejin.im/book/6844733817438076936/section/6844733817563906061)  
+
+
 ## Run the project:     
 
 ### 1.download the projet:  
