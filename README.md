@@ -219,9 +219,9 @@ Main reference: [SSH连接工具FinalShell的安装与使用](https://my.oschina
 [FinalShell自定义加速教程-加速SSH连接,支持XShell,Putty,SecureCRT,Iterm,所有SSH客户端](http://www.hostbuf.com/t/1076.html)  
 
 ## 14.配置Https  
-1.[配置Https](https://juejin.im/book/6844733817438076936/section/6844733817563906061)
-2.[上传ssl证书到服务器 ，配置nginx的https实现安全访问](https://blog.csdn.net/weixin_42742717/article/details/107489348)  
-2.[申请免费的腾讯云SSL证书实现https访问教程](https://cloud.tencent.com/developer/article/1409413)  
+1.[配置Https](https://juejin.im/book/6844733817438076936/section/6844733817563906061)  
+2.[上传ssl证书到服务器 ，配置nginx的https实现安全访问](https://blog.csdn.net/weixin_42742717/article/details/107489348)     
+2.[申请免费的腾讯云SSL证书实现https访问教程](https://cloud.tencent.com/developer/article/1409413)    
 
 ## 通过 Docker 部署
 1.[安装与配置 Docker](https://cloud.tencent.com/developer/labs/lab/10054)  
