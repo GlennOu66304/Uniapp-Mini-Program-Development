@@ -200,11 +200,21 @@ nvm install v14.14.0
 ```
 nvm use node  
 ```
+4. To check the app in the web, just put the port 3000 at the end of the IP address:  
+http://公网ip:3000/  
+[获取公网 IP 地址](https://cloud.tencent.com/document/product/213/17940)  
+[记一次完整的项目部署](https://juejin.im/post/6844903619318251528)  
+[PM2简易使用手册](https://juejin.im/post/6844903710037016584)  
+[How to kill the pm2 --no-daemon process](https://stackoverflow.com/questions/45204172/how-to-kill-the-pm2-no-daemon-process)  
 References:  
 [腾讯云服务器搭建node环境](https://uzshare.com/view/818786)  
 [基于NeteaseCloudMusicApi接口二次开发和部署](https://juejin.im/book/6844733817438076936/section/6844733817563906061) 
-[使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)    
-## 工具|FinalShell，必备终端利器
+[使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)   
+
+## 工具|FinalShell，必备终端利器: 
+1. According to the guide to deploy your finalshell;  
+Main reference: [SSH连接工具FinalShell的安装与使用](https://my.oschina.net/cztblog/blog/4394507)   
+[FinalShell国产ssh连接工具简单的使用教程](https://blog.csdn.net/fengyupotest/article/details/93720171)  
 [工具|FinalShell，必备终端利器](https://www.jianshu.com/p/94e6bb9e52d1)  
 [FinalShell自定义加速教程-加速SSH连接,支持XShell,Putty,SecureCRT,Iterm,所有SSH客户端](http://www.hostbuf.com/t/1076.html)  
 ## Run the project:     
