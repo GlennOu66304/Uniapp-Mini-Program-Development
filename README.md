@@ -1,4 +1,4 @@
-# Uniapp develop: 
+# Uniapp develop:   
 ## 1.Bug 'main package source size 2129KB exceed max limit 2MB'fixing:  
 1.Put the image into the CDN;   
 2. According to the "Subpackage Loading" in the documeatation to fix it:  
