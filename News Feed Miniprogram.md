@@ -1,4 +1,9 @@
 # News Feed Miniprogram  
+## run project in the local: 
+### 1. open the redis, mongo, easymock:[9.Qucik way to run the Easy Mock shortcut:](https://github.com/GlennOu66304/Uniapp-Mini-Program-Development)
+### 2. inpu the wechat id;
+### 3. choose does not verify the url;
+
 ## 1.can not see the color change in the wechat dev tool:
 You need to make sure that class not calls in the view:  
 ```
