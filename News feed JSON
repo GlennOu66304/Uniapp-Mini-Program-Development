@@ -109,3 +109,38 @@ News feed JSON:
     }
   ]
 }
+   
+News info
+{
+  "status": "ok",
+  "data": {
+    "article_id": "265",
+    "article_cate": "9",
+    "article_title": "朝鲜艺术团演出免费看!韩国将抽签选千余幸运观众",
+    "article_keywords": "朝鲜艺术团",
+    "article_description": "朝鲜艺术团演出免费看!韩国将抽签选千余幸运观众",
+    "article_content": [
+      {
+        "type": "img",
+        "content": "http://img0.imgtn.bdimg.com/it/u=2553718547,3346887437&fm=26&gp=0.jpg"
+      },
+      {
+        "type": "txt",
+        "content": "\r\n海外网2月1日电 朝鲜三池渊管弦乐团将于2月8号和11号分别在韩国江陵艺术中心和首尔国立剧场举行演出。这也是朝鲜艺术团时隔16年再次访韩。今天（1日），韩国统一部表示，将邀请1060人免费看这两场演出，观众名单将由网上报名和抽签产生。\r\n\r\n据韩媒NEWS 1报道，2日中午12点到3日中午12点，韩国政府将开放网上报名和抽签活动，最终将根据年龄随机确定530名幸运观众，每人将获赠2张免费的入场券。\r\n据海外网早前报道，1月15日，朝韩举行工作会谈讨论朝鲜艺术团参奥事宜，玄松月作为朝方代表参加。双方经协商确定，在冬奥期间，朝方将派遣由三池渊管弦乐团140余人组成的艺术团访韩，在江陵和首尔进行演出。\r\n\r\n1月21日至22日，玄松月率朝方艺术演出考察团抵达韩国，分别访问这两座城市，对演出地点进行提前踩点，并最终敲定于2月8日在韩国江陵艺术中心、2月11日在首尔国立剧场共举行两场演出。\r\n\r\n据韩媒报道，三池渊管弦乐团是2009年根据金正日音乐大众化的指示组建的音乐团体。2017年新年晚会上该乐团演奏了迪士尼经典名曲等海外音乐。\r\n"
+      }
+    ],
+    "article_img_url": "statics/article_faces/5a72adb1eb5d0.png",
+    "article_view_number": "3961",
+    "article_create_date": "1517465010",
+    "article_user_id": "1888",
+    "article_from": "",
+    "article_status": "1",
+    "artcle_order": null,
+    "cate_id": "9",
+    "cate_name": "国际",
+    "cate_desc": "",
+    "cate_left": "1",
+    "cate_right": "2",
+    "cate_order": "100"
+  }
+}
