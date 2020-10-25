@@ -1,4 +1,4 @@
-# News Feed Miniprogram
+# News Feed Miniprogram  
 ## can not see the color change in the wechat dev tool:
 You need to make sure that class not calls in the view:  
 ```
