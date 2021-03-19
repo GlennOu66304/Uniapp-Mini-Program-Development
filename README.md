@@ -51,6 +51,12 @@ data() {
 1.install nodev8.x,: 
 [How to install older version of node.js on Windows?](https://stackoverflow.com/questions/33849714/how-to-install-older-version-of-node-js-on-windows/49780887)  
 
+## NVM method:
+```
+nvm install v8.10.0
+zt@ztdeMacBook-Air ~ % cd easy-mock
+zt@ztdeMacBook-Air easy-mock % npm run dev
+```
 2.node version check:  
 ```
 node-v
